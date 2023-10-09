@@ -25,23 +25,16 @@ class ContainerWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.all(5.0),
+              padding: const EdgeInsets.all(5.0),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     name,
-                    style: TextStyle(
+                    style: const TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.w500,
                         fontSize: 16),
-                  ),
-                  Text(
-                    time,
-                    style: TextStyle(
-                        color: Colors.grey,
-                        fontWeight: FontWeight.normal,
-                        fontSize: 13),
                   ),
                 ],
               ),
